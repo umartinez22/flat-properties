@@ -27,6 +27,19 @@ describe('model-helpers.js', function () {
                         }
                       };
                     }
+                  },
+                  {
+                    buildingNumber: 2,
+                    street: function () {
+                      return {
+                        name: 'Maria Antonia',
+                        sector: function () {
+                          return {
+                            name: 'Gualey'
+                          };
+                        }
+                      };
+                    }
                   }
                 ]
               };
@@ -76,6 +89,11 @@ describe('model-helpers.js', function () {
             buildingNumber: 32,
             streetName: 'Simon orozco',
             sector: 'Invivienda'
+          },
+          {
+            buildingNumber: 2,
+            streetName: 'Maria Antonia',
+            sector: 'Gualey'
           }
         ]
       };

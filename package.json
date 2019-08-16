@@ -1,6 +1,6 @@
 {
   "name": "flat-properties",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Flat properties from hierarchy object data.",
   "main": "./lib/flat-properties.js",
   "scripts": {
@@ -31,5 +31,11 @@
     "flat"
   ],
   "author": "Ulises Martinez Adon",
-  "license": "MIT"
+  "license": "MIT",
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "jasmine": true
+    }
+  }
 }
