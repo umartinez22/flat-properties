@@ -1,8 +1,9 @@
-#Flat-Properties
+# Flat-Properties
 Flat properties from hierarchy object data.
 
-##Example:
+## Example:
 
+```flatProperties(data, schema);```
 
 #### Data
 ```
