@@ -1,6 +1,10 @@
 # Flat-Properties
 Flat properties from hierarchy object data.
 
+## How to Install
+
+```npm i flat-properties```
+
 ## Example:
 
 ```flatProperties(data, schema);```
